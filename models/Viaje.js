@@ -1,5 +1,6 @@
 import Sequelize from 'sequelize';
 import db from '../config/db.js';
+//Config de la BD
 
 export const Viaje = db.define('viajes', {
     titulo: {
